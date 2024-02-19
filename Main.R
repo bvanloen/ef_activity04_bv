@@ -18,7 +18,7 @@ team_info <- list(team_name = "air2waterSat_MCD",
 )
 
 ## Load required functions
-if(file.exists("01_data_download.R"))      source("01_download_data.R")
+if(file.exists("01_data_download.R"))      source("01_data_download.R")
 if(file.exists("02_calibrate_forecast.R")) source("02_calibrate_forecast.R")
 if(file.exists("03_run_forecast.R"))       source("03_run_forecast.R")
 if(file.exists("04_submit_forecast.R"))    source("04_submit_forecast.R")
