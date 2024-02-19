@@ -63,4 +63,3 @@ submit_forecast <- function(forecast,team_info,submit=FALSE){
   }
   
 }
-```
